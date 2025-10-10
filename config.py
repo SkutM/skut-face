@@ -6,5 +6,6 @@ import os
 
 class Config:
     SECRET_KEY = os.getenv("SECRET_KEY", "dev-secret-key")
+    # where does the db live? below line.
     SQLALCHEMY_DATABASE_URI = os.getenv("DATABASE_URL", "sqlite:///../instance/skutface.db")
     SQLALCHEMY_TRACK_MODIFICATIONS = False

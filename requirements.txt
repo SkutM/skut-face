@@ -23,7 +23,8 @@ MarkupSafe==3.0.3
 
 # ML
 # Let TensorFlow choose compatible NumPy / ml-dtypes automatically
-tensorflow>=2.19.0
+tensorflow==2.20.0
+tf-keras==2.20.0
 deepface==0.0.93
 
 # dev

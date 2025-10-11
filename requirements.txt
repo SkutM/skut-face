@@ -24,7 +24,6 @@ MarkupSafe==3.0.3
 # ML stuff
 numpy==1.26.4
 tensorflow==2.20.0
-tf-keras==2.17.0
 deepface==0.0.93
 
 # dev
